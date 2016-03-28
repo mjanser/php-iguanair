@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Library for sending IR signals using iguanaIR devices",
     "keywords": ["iguanaIR"],
-    "homepage": "https://github.com/mjanser/iguana",
+    "homepage": "https://github.com/mjanser/php-iguana",
     "license": "GPLv3",
     "authors": [
         {
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/mjanser/iguana",
-        "issues": "https://github.com/mjanser/iguana/issues"
+        "source": "https://github.com/mjanser/php-iguana",
+        "issues": "https://github.com/mjanser/php-iguana/issues"
     },
     "require": {
         "php": ">=5.6",
