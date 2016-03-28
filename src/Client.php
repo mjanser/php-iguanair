@@ -107,7 +107,7 @@ class Client
     private function channelsToHex(array $channels)
     {
         $binary = [];
-        for($index = 4; $index > 0; $index--) {
+        for ($index = 4; $index > 0; --$index) {
             $binary[] = in_array($index, $channels, true) ? '1' : '0';
         }
 
