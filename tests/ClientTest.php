@@ -11,8 +11,8 @@
 
 namespace IguanaIr\tests;
 
-use IguanaIr\CommandFailedException;
 use IguanaIr\Client;
+use IguanaIr\CommandFailedException;
 use Symfony\Component\Process\Process;
 
 /**
