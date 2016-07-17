@@ -1,7 +1,7 @@
-# iguanair
+# iguanaIR for PHP
 
 [![Build Status](https://travis-ci.org/mjanser/php-iguanair.svg?branch=master)](https://travis-ci.org/mjanser/php-iguanair)
-[![Coverage Status](https://coveralls.io/repos/github/mjanser/php-iguanair/badge.svg?branch=master)](https://coveralls.io/github/mjanser/php-iguanair?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/mjanser/php-iguanair/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mjanser/php-iguanair/?branch=master)
 
 This library can be used to send signals to an [iguanaIR](https://www.iguanaworks.net/) device.
 Internally it uses the [Symfony Process Component](https://symfony.com/doc/current/components/process.html) for running the `igclient` command.
