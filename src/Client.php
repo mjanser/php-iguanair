@@ -11,7 +11,6 @@
 
 namespace IguanaIr;
 
-use Symfony\Component\Process\Process;
 use Symfony\Component\Process\ProcessBuilder;
 
 class Client
@@ -58,7 +57,7 @@ class Client
     {
         $builder = $this->getProcessBuilder();
 
-        if ($channels) {
+        if (!empty($channels)) {
             $builder->add('--channels='.$this->channelsToHex($channels));
         }
         $builder->add('--send='.$file);
@@ -90,7 +89,7 @@ class Client
         $builder = ProcessBuilder::create(explode(' ', self::$command));
         $builder->setTimeout(3);
 
-        if ($this->device) {
+        if (null !== $this->device) {
             $builder->add('--device='.$this->device);
         }
 
