@@ -51,7 +51,7 @@ class Client
      * @param string $file     Path to the signal file to send
      * @param int[]  $channels List of channels to activate
      *
-     * @throws CommandFailedException If the command failed.
+     * @throws CommandFailedException If the command failed
      */
     public function send($file, array $channels = [])
     {
