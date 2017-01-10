@@ -16,9 +16,9 @@ use IguanaIr\CommandFailedException;
 use Symfony\Component\Process\Process;
 
 /**
- * @covers IguanaIr\Client::__construct
- * @covers IguanaIr\Client::setCommand
- * @covers IguanaIr\Client::<private>
+ * @covers \IguanaIr\Client::__construct
+ * @covers \IguanaIr\Client::setCommand
+ * @covers \IguanaIr\Client::<private>
  */
 class ClientTest extends \PHPUnit_Framework_TestCase
 {
@@ -55,7 +55,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers IguanaIr\Client::__toString
+     * @covers \IguanaIr\Client::__toString
      */
     public function testDeviceName()
     {
@@ -65,7 +65,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers IguanaIr\Client::__toString
+     * @covers \IguanaIr\Client::__toString
      */
     public function testDefaultDeviceName()
     {
@@ -75,7 +75,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers IguanaIr\Client::send
+     * @covers \IguanaIr\Client::send
      */
     public function testSendSignal()
     {
@@ -90,7 +90,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers IguanaIr\Client::send
+     * @covers \IguanaIr\Client::send
      */
     public function testSendSignalWithDevice()
     {
@@ -105,7 +105,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers IguanaIr\Client::send
+     * @covers \IguanaIr\Client::send
      */
     public function testSendSignalToChannels()
     {
@@ -120,8 +120,8 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers IguanaIr\Client::send
-     * @covers IguanaIr\CommandFailedException
+     * @covers \IguanaIr\Client::send
+     * @covers \IguanaIr\CommandFailedException
      */
     public function testCommandFailureThrowsException()
     {
