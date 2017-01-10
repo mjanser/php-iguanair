@@ -111,7 +111,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     {
         $client = $this->getMockedClient();
 
-        $this->expectCall(['--channels=0x05', '--send=signals.txt'], 0);
+        $this->expectCall(['--set-channels=0x05', '--send=signals.txt'], 0);
         $this->expectNoOtherCalls();
 
         $client->send('signals.txt', [1, 3]);

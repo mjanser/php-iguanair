@@ -58,7 +58,7 @@ class Client
         $builder = $this->getProcessBuilder();
 
         if (!empty($channels)) {
-            $builder->add('--channels='.$this->channelsToHex($channels));
+            $builder->add('--set-channels='.$this->channelsToHex($channels));
         }
         $builder->add('--send='.$file);
 
