@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the iguanair PHP library.
  *
@@ -13,6 +15,7 @@ namespace IguanaIr\tests;
 
 use IguanaIr\Client;
 use IguanaIr\CommandFailedException;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Process\Process;
 
 /**
@@ -20,7 +23,7 @@ use Symfony\Component\Process\Process;
  * @covers \IguanaIr\Client::setCommand
  * @covers \IguanaIr\Client::<private>
  */
-class ClientTest extends \PHPUnit_Framework_TestCase
+class ClientTest extends TestCase
 {
     /**
      * @var string
