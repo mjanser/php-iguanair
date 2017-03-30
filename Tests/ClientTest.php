@@ -11,7 +11,7 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace IguanaIr\tests;
+namespace IguanaIr\Tests;
 
 use IguanaIr\Client;
 use IguanaIr\CommandFailedException;
