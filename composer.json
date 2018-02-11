@@ -4,7 +4,7 @@
     "description": "Library for sending IR signals using iguanaIR devices",
     "keywords": ["iguanaIR"],
     "homepage": "https://github.com/mjanser/php-iguana",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Martin Janser",
